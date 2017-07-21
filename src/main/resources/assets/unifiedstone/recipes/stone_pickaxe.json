@@ -1,0 +1,23 @@
+{
+	"comment": [
+		"32767 is the OreDictionary.WildcardValue (Short.MAX_VALUE) "
+	],
+	"type": "minecraft:crafting_shaped",
+	"pattern": [
+		"CCC",
+		" S ",
+		" S "
+	],
+	"key": {
+		"S": {
+			"item": "minecraft:stick"
+		},
+		"C": {
+			"type": "forge:ore_dict",
+			"ore": "listAllStone"
+		}
+	},
+	"result": {
+		"item": "minecraft:stone_pickaxe"
+	}
+}
